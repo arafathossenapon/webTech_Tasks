@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>University Admission Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>University Admission Form</h1>
+    </header>
+
+    <main>
+
+        <form>
+
+            <fieldset>
+
+                <legend><b>Personal Information</b></legend>
+                <label>Full Name:</label><br>
+                <input type="text" maxlength="50" required>
+                <br><br>
+                <label>Email:</label><br>
+                <input type="email" required><br><br>
+
+                <label>Date of Birth:</label><br>
+                <input type="date" required>
+                <br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" name="gender" required> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+
+                <br><br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend><b>Academic Information</b></legend>
+
+                <label>College Name:</label><br>
+                <input type="text" maxlength="60" required>
+                <br><br>
+
+                <label>SSC GPA:</label><br>
+                <input type="text" required>
+                <br><br>
+
+                <label>HSC GPA:</label><br>
+                <input type="text" required>
+                <br><br>
+
+                <label>Preferred Department:</label><br>
+
+                <select required>
+                    <option value="">Select Department</option>
+                    <option>CSE</option>
+                    <option>CS</option>
+                    <option>EEE</option>
+                    <option>BBA</option>
+                    <option>Architecture</option>
+                </select>
+
+                <br><br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>Interests</b></legend>
+                <input type="checkbox"> Programming <br>
+                <input type="checkbox"> Robotics <br>
+                <input type="checkbox"> Artificial Intelligence <br>
+                <input type="checkbox"> Web Development <br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>Documents</b></legend>
+                <label>Upload Transcript:</label><br>
+                <input type="file" required>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>&copy; University Admission Form</p>
+
+    </footer>
+
+</body>
+
+</html>
